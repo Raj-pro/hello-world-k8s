@@ -12,6 +12,7 @@ k8s/service.yaml        # Kubernetes Service
 argo-app.yaml           # (Optional) Argo CD Application
 README.md
 demo/video.mp4          # (Optional) Demo video
+```
 ⚙️ Steps to DeployBuild and Load Docker Imagedocker build -t hello-world-nginx -f docker/Dockerfile .
 kind load docker-image hello-world-nginx --name hello-world-cluster
 Create Kind Clusterkind create cluster --name hello-world-cluster
